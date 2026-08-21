@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/run_optical_sim_test.dir/apps/run_optical_sim_test.cpp.o -o run_optical_sim_test  libsimlite_core.a 

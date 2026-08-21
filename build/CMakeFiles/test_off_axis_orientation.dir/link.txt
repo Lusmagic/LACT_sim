@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/test_off_axis_orientation.dir/apps/test_off_axis_orientation.cpp.o -o test_off_axis_orientation  libsimlite_core.a 

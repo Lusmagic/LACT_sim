@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/scan_light_collector_angular_response.dir/apps/scan_light_collector_angular_response.cpp.o -o scan_light_collector_angular_response  libsimlite_core.a 

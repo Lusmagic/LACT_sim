@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/test_light_collector_response.dir/apps/test_light_collector_response.cpp.o -o test_light_collector_response  libsimlite_core.a 

@@ -1,0 +1,58 @@
+========================================
+Diffuse Target Simulation
+========================================
+
+[Configuration]
+  input_csv               : run_logs/official_tests/raytrace_structure_parallel/hits.csv
+  runtime_config          : configs/simulation_fast_reflectivity.cfg
+
+[Target geometry]
+  center_global           : (0.00000000, 0.00000000, -8.42280800)
+  normal_global           : (0.00000000, 0.00000000, -1.00000000)
+  right_global            : (-1.00000000, 0.00000000, 0.00000000)
+  up_global               : (0.00000000, 1.00000000, 0.00000000)
+  width_m                 : 0.50000000
+  height_m                : 0.50000000
+  reflectivity            : 0.98000000
+  random_seed             : 202608190001
+
+[Results]
+  input_target_photons    : 4293071
+  invalid_rows            : 0
+  inside_target           : 4293071
+  outside_target          : 0
+  absorbed_by_target      : 85594
+  reflected_by_target     : 4207477
+  diffuse_photons         : 4207477
+  target_geometric_fraction: 1.00000000
+  target_reflectivity_survival_fraction: 0.98006229
+  final_diffuse_fraction  : 0.98006229
+
+[Output]
+  save_diffuse_csv        : true
+  diffuse_csv             : diffuse_hits.csv
+
+[Timing]
+  trace_time_s            : 50.50752210
+  total_time_s            : 50.75566970
+
+========================================
+Machine-readable summary
+========================================
+input_target_photons=4293071
+invalid_rows=0
+inside_target=4293071
+outside_target=0
+absorbed_by_target=85594
+reflected_by_target=4207477
+diffuse_photons=4207477
+target_geometric_fraction=1.00000000
+target_reflectivity_survival_fraction=0.98006229
+final_diffuse_fraction=0.98006229
+target_center_global=0.00000000,0.00000000,-8.42280800
+target_normal_global=0.00000000,0.00000000,-1.00000000
+target_width_m=0.50000000
+target_height_m=0.50000000
+target_reflectivity=0.98000000
+target_random_seed=202608190001
+diffuse_output_csv=diffuse_hits.csv

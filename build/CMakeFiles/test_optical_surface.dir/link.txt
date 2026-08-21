@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/test_optical_surface.dir/apps/test_optical_surface.cpp.o -o test_optical_surface  libsimlite_core.a 

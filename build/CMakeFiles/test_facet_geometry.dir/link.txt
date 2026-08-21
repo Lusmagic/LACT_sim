@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/test_facet_geometry.dir/apps/test_facet_geometry.cpp.o -o test_facet_geometry  libsimlite_core.a 

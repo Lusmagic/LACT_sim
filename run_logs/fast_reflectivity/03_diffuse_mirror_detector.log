@@ -1,0 +1,103 @@
+========================================
+Diffuse light: Mirror / Detector simulation
+========================================
+
+[Configuration]
+  diffuse_csv             : diffuse_hits.csv
+  main_config             : configs/official_tests/perfect_parallel_raytrace_structure_whiteboard.cfg
+  runtime_config          : configs/simulation_fast_reflectivity.cfg
+
+[CMOS geometry]
+  position_local          : (0.00000000, 0.00000000, -16.00000000)
+  look_at_local           : (0.00000000, 0.00000000, -8.42280800)
+  position_global         : (-0.00000000, 0.00000000, -16.00000000)
+  optical_axis_global     : (0.00000000, 0.00000000, 1.00000000)
+  right_axis_global       : (0.00000000, -1.00000000, 0.00000000)
+  up_axis_global          : (-1.00000000, 0.00000000, 0.00000000)
+  focal_length_m          : 0.03500000
+  f_number                : 1.80000000
+  pupil_diameter_m        : 0.01944444
+  horizontal_fov_deg      : 14.33000000
+  vertical_fov_deg        : 10.77000000
+  housing_width_m         : 0.17000000
+  housing_height_m        : 0.18500000
+  housing_depth_m         : 0.14000000
+
+[First-hit]
+  enabled                 : true
+  epsilon_m               : 0.00000100
+
+[Obstruction]
+  main_config_enabled     : true
+  runtime_enabled         : true
+  effective_enabled       : true
+  start_epsilon_m         : 0.00010000
+  primitive_count         : 22
+
+[Results]
+  total_diffuse_rays      : 4207477
+  invalid_rows            : 0
+  mirror_geometry_hits    : 652858
+  detector_geometry_hits  : 760
+  both_geometry_hits      : 0
+  neither_geometry_hits   : 3553859
+  mirror_first            : 652858
+  detector_first          : 760
+  blocked_target_to_mirror: 6427
+  final_mirror_hits       : 646431
+  blocked_target_to_detector: 0
+  detector_housing_first_hits: 760
+  detector_side_or_back_hits: 2
+  blocked_by_detector_front_housing: 750
+  pupil_hits              : 8
+  outside_fov             : 0
+  inside_fov              : 8
+  final_cmos_hits         : 8
+  mirror_geometry_ratio   : 0.15516615
+  detector_geometry_ratio : 0.00018063
+  mirror_obstruction_transmission: 0.99015559
+  detector_obstruction_transmission: 1.00000000
+  final_mirror_ratio      : 0.15363863
+  final_cmos_ratio        : 0.00000190
+
+[Output]
+  diffuse_mirror_csv      : diffuse_mirror_hits.csv
+  diffuse_cmos_csv        : diffuse_cmos_hits.csv
+
+[Timing]
+  trace_time_s            : 44.14715066
+  total_time_s            : 44.31359525
+
+========================================
+Machine-readable summary
+========================================
+total_diffuse_rays=4207477
+invalid_rows=0
+mirror_geometry_hits=652858
+detector_geometry_hits=760
+both_geometry_hits=0
+neither_geometry_hits=3553859
+mirror_first=652858
+detector_first=760
+blocked_target_to_mirror=6427
+final_mirror_hits=646431
+blocked_target_to_detector=0
+detector_housing_first_hits=760
+detector_side_or_back_hits=2
+blocked_by_detector_front_housing=750
+pupil_hits=8
+outside_fov=0
+inside_fov=8
+final_cmos_hits=8
+mirror_geometry_ratio=0.15516615
+detector_geometry_ratio=0.00018063
+mirror_obstruction_transmission=0.99015559
+detector_obstruction_transmission=1.00000000
+final_mirror_ratio=0.15363863
+final_cmos_ratio=0.00000190
+first_hit_exclusivity_enabled=1
+obstruction_enabled=1
+obstruction_start_epsilon_m=0.00010000
+primitive_count=22
+mirror_output_csv=diffuse_mirror_hits.csv
+cmos_output_csv=diffuse_cmos_hits.csv

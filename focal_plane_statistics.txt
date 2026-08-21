@@ -1,0 +1,14 @@
+Focal-plane photon statistics
+========================================
+hit_surface=4696113
+invalid_uv=1
+valid_photons=4696112
+u_min_mm=-10.599913000
+u_max_mm=10.594648990
+v_min_mm=-12.177849220
+v_max_mm=12.220968120
+centroid_u_mm=-0.000783261
+centroid_v_mm=0.002029473
+rms_radius_mm=3.925884700
+r80_mm=5.047933964
+d80_mm=10.095867928

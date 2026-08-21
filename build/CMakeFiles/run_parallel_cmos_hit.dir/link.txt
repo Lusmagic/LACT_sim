@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/run_parallel_cmos_hit.dir/apps/run_parallel_cmos_hit.cpp.o -o run_parallel_cmos_hit  libsimlite_core.a 

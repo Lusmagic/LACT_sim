@@ -1,0 +1,43 @@
+============================================================
+LACT Fast Reflectivity Simulation Summary
+============================================================
+Main config                     : configs/official_tests/perfect_parallel_raytrace_structure_whiteboard.cfg
+Runtime config                  : configs/simulation_fast_reflectivity.cfg
+------------------------------------------------------------
+[1] Parallel light
+Total parallel rays             : 10000000
+Mirror geometry hits            : 5893422
+Mirror first                    : 5893422
+Detector first                  : 6312
+Blocked parallel -> mirror      : 957483
+Final parallel mirror hits      : 4935939
+Absorbed by mirror              : 498647
+Reflected by mirror             : 4437292
+Blocked mirror -> target        : 144221
+Final target hits               : 4293071
+Final parallel CMOS hits        : 0
+------------------------------------------------------------
+[2] Diffuse target
+Input target photons            : 4293071
+Inside target                   : 4293071
+Outside target                  : 0
+Absorbed by target              : 85594
+Reflected by target             : 4207477
+Generated diffuse photons       : 4207477
+------------------------------------------------------------
+[3] Diffuse light
+Total diffuse rays              : 4207477
+Mirror first                    : 652858
+Detector first                  : 760
+Blocked target -> mirror        : 6427
+Final diffuse mirror hits       : 646431
+Blocked target -> detector      : 0
+Final diffuse CMOS hits         : 8
+------------------------------------------------------------
+[Output]
+Target hits CSV                 : run_logs/official_tests/raytrace_structure_parallel/hits.csv
+Parallel CMOS CSV               : parallel_cmos_hits.csv
+Diffuse rays CSV                : diffuse_hits.csv
+Diffuse mirror CSV              : diffuse_mirror_hits.csv
+Diffuse CMOS CSV                : diffuse_cmos_hits.csv
+============================================================

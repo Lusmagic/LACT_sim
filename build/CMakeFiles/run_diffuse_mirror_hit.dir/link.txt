@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/run_diffuse_mirror_hit.dir/apps/run_diffuse_mirror_hit.cpp.o -o run_diffuse_mirror_hit  libsimlite_core.a 

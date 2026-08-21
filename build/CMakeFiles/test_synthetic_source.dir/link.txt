@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/test_synthetic_source.dir/apps/test_synthetic_source.cpp.o -o test_synthetic_source  libsimlite_core.a 

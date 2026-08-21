@@ -1,0 +1,1 @@
+/usr/bin/g++ -O3 -DNDEBUG CMakeFiles/test_camera_geometry.dir/apps/test_camera_geometry.cpp.o -o test_camera_geometry  libsimlite_core.a 
